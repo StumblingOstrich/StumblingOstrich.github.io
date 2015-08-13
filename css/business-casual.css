@@ -7,11 +7,12 @@
 body {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     /*background: url('../img/bg2.jpg') no-repeat center center fixed;*/
-    background-color: grey;
+    background-color: #515151;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    font-size: 9pt;
 }
 
 h1,
@@ -49,9 +50,25 @@ hr {
 }
 
 .navbar-nav {
+    background-color: #fff;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
+}
+
+
+/*改選單列底色*/
+
+.navwhite {
+    background-color: #fff;
+}
+
+.navbar-default {
+    background-color: #fff;
+}
+
+.navbar-collapse {
+    background-color: #fff;
 }
 
 .img-full {
@@ -186,7 +203,15 @@ footer p {
 
 /*brandimg*/
 
-.logo {}
+.logowrap {
+    background-color: #fff;
+}
+
+.logo {
+    background-color: #fff;
+    width: 100px;
+    margin: auto;
+}
 
 
 /*actors' background*/
